@@ -1,6 +1,12 @@
 <template>
   <q-page class="">
-    <q-card class="col" flat bordered>
+    <q-card 
+      v-for="post in posts"
+      :key="post.id"
+      class="col q-mt-xs justify-end" 
+      flat 
+      bordered>
+
       <q-item>
         <q-item-section avatar>
           <q-avatar>
@@ -9,9 +15,9 @@
         </q-item-section>
 
         <q-item-section>
-          <q-item-label>Ananas Express</q-item-label>
+          <q-item-label>{{post.title}}</q-item-label>
           <q-item-label caption>
-            Audiomatic
+            {{post.artist}}
           </q-item-label>
         </q-item-section>
         <q-item-section>
@@ -40,21 +46,21 @@
             id: 1,
             date: '1597493296770',
             artist: 'Audiomatic',
-            song: 'Pineapple Express',
+            title: 'Pineapple Express',
             from: 'Benny'
           },
           {
             id: 2,
             date: '1597493296770',
             artist: 'Neelix',
-            song: 'Makeup',
+            title: 'Makeup',
             from: 'Ozan'
           },
           {
             id: 3,
             date: '1597493296770',
             artist: 'Whats my age again',
-            song: 'Blink-182',
+            title: 'Blink-182',
             from: 'Axel'
           }
         ]
