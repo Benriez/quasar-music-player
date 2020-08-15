@@ -2,14 +2,6 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated class="bg-blue-grey-10">
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          icon="menu"
-          aria-label="Menu"
-          @click="leftDrawerOpen = !leftDrawerOpen"
-        />
 
         <q-toolbar-title>
           Music Stream
