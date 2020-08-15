@@ -31,9 +31,23 @@
 </template>
 
 <script>
-export default {
-  name: 'PageIndex'
-}
+  export default {
+    name: 'index',
+    data(){
+      return {
+        tracks: [
+          {
+            artist: 'Audiomatic',
+            song: 'Pineapple Express'
+          },
+          {
+            artist: 'Neelix',
+            song: 'Makeup'
+          }
+        ]
+      }
+    }
+  }
 </script>
 
 <style lang="stylus">
