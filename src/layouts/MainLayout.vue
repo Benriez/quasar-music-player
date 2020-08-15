@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated>
+    <q-header elevated class="bg-blue-grey-10">
       <q-toolbar>
         <q-btn
           flat
@@ -19,7 +19,7 @@
       </q-toolbar>
     </q-header>
 
-    <q-footer elevated>
+    <q-footer elevated  class="bg-blue-grey-10">
       <q-toolbar>
         <q-card class="my-card full-width bg-transparent" flat >
           <q-card-actions align="around">
