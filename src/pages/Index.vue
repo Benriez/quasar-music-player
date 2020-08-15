@@ -35,14 +35,27 @@
     name: 'index',
     data(){
       return {
-        tracks: [
+        posts: [
           {
+            id: 1,
+            date: '1597493296770',
             artist: 'Audiomatic',
-            song: 'Pineapple Express'
+            song: 'Pineapple Express',
+            from: 'Benny'
           },
           {
+            id: 2,
+            date: '1597493296770',
             artist: 'Neelix',
-            song: 'Makeup'
+            song: 'Makeup',
+            from: 'Ozan'
+          },
+          {
+            id: 3,
+            date: '1597493296770',
+            artist: 'Whats my age again',
+            song: 'Blink-182',
+            from: 'Axel'
           }
         ]
       }
