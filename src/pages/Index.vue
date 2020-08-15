@@ -1,9 +1,9 @@
 <template>
-  <q-page class="">
+  <q-page >
     <q-card 
       v-for="post in posts"
       :key="post.id"
-      class="col q-mt-xs justify-end" 
+      class="col q-mt-xs" 
       flat 
       bordered>
 
@@ -15,7 +15,7 @@
         </q-item-section>
 
         <q-item-section>
-          <q-item-label>{{post.title}}</q-item-label>
+          <q-item-label>{{post.id +'. ' + post.title}}</q-item-label>
           <q-item-label caption>
             {{post.artist}}
           </q-item-label>
@@ -47,6 +47,7 @@
             date: '1597493296770',
             artist: 'Audiomatic',
             title: 'Pineapple Express',
+            trackUrl: 'https://soundcloud.com/benniaudiomatic/audiomatic-phaxe-pineapple-x',
             from: 'Benny'
           },
           {
@@ -54,6 +55,7 @@
             date: '1597493296770',
             artist: 'Neelix',
             title: 'Makeup',
+            trackUrl: 'https://soundcloud.com/neelix/makeup',
             from: 'Ozan'
           },
           {
@@ -61,6 +63,7 @@
             date: '1597493296770',
             artist: 'Whats my age again',
             title: 'Blink-182',
+            trackUrl: 'https://www.youtube.com/watch?v=K7l5ZeVVoCA',
             from: 'Axel'
           }
         ]
@@ -70,4 +73,5 @@
 </script>
 
 <style lang="stylus">
+
 </style>

@@ -15,9 +15,9 @@
       <q-toolbar>
         <q-card class="my-card full-width bg-transparent" flat >
           <q-card-actions align="around">
-            <q-btn flat round size="2.715em" color="white" icon="skip_previous" />
-            <q-btn flat round size="2.715em" color="white" icon="play_arrow" />
-            <q-btn flat round size="2.715em" color="white" icon="skip_next" />
+            <q-btn flat round size="1.95em" color="white" icon="skip_previous" />
+            <q-btn flat round size="1.95em" color="white" icon="play_arrow" />
+            <q-btn flat round size="1.95em" color="white" icon="skip_next" />
           </q-card-actions>
           </q-card>
       </q-toolbar>
